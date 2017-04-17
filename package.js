@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'tunguska:accounts-imgur',
+  name: 'tomsen-san:oauth2-accounts-gitlab',
   version: '0.0.1',
-  summary: 'OAuth2 for Imgur',
-  git: 'https://github.com/robfallows/tunguska-accounts-imgur',
+  summary: 'OAuth2 for Gitlab',
+  git: 'https://github.com/tomsen-san/meteor-accounts-gitlab',
   documentation: 'README.md'
 });
 
@@ -15,9 +15,9 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('tunguska:imgur@0.0.1', ['client', 'server']);
+  api.use('tomsen-san:oauth2-gitlab@0.0.1', ['client', 'server']);
 
-  api.addFiles('accounts-imgur_login_button.css', 'client');
+  api.addFiles('accounts-gitlab_login_button.css', 'client');
 
-  api.addFiles('accounts-imgur.js');
+  api.addFiles('accounts-gitlab.js');
 });
