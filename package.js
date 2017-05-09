@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'tomsen-san:oauth2-accounts-gitlab',
+  name: 'tomsen:oauth2-accounts-gitlab',
   version: '0.0.1',
   summary: 'OAuth2 for Gitlab',
   git: 'https://github.com/tomsen-san/meteor-accounts-gitlab',
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('tomsen-san:oauth2-gitlab@0.0.1', ['client', 'server']);
+  api.use('tomsen:oauth2-gitlab@0.0.1', ['client', 'server']);
 
   api.addFiles('accounts-gitlab_login_button.css', 'client');
 
