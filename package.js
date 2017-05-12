@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('tomsen:oauth2-gitlab@0.0.1', ['client', 'server']);
+  api.use('tomsen:oauth2-gitlab', ['client', 'server']);
 
   api.addFiles('accounts-gitlab_login_button.css', 'client');
 
