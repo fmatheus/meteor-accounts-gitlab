@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tomsen:oauth2-accounts-gitlab',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'OAuth2 for Gitlab',
   git: 'https://github.com/tomsen-san/meteor-accounts-gitlab',
   documentation: 'README.md'
